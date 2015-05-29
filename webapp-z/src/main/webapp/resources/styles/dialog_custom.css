@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+
+.no-show-title .ui-dialog-titlebar{
+  display: none;
+}

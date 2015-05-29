@@ -1,0 +1,209 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>house.my</groupId>
+  <artifactId>impl-dao-z</artifactId>
+  <version>0.1</version>
+  <packaging>jar</packaging>
+
+  <name>impl-dao-z</name>
+  <url>http://maven.apache.org</url>
+
+  <parent>
+    <groupId>house.my</groupId>
+    <artifactId>parent-z</artifactId>
+    <version>0.1</version>
+    <relativePath>../parent-z/pom.xml</relativePath>
+  </parent>
+
+
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>house.my</groupId>
+      <artifactId>model-z</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>house.my</groupId>
+      <artifactId>dao-z</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>house.my</groupId>
+      <artifactId>commons-z</artifactId>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jms</artifactId>
+    </dependency>
+
+    <!-- Spring -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-tx</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-beans</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context-support</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <!-- <version>${springframework.version}</version> -->
+      <!-- <exclusions> -->
+      <!-- Exclude Commons Logging in favor of SLF4j -->
+      <!-- <exclusion> -->
+      <!-- <groupId>commons-logging</groupId> -->
+      <!-- <artifactId>commons-logging</artifactId> -->
+      <!-- </exclusion> -->
+      <!-- </exclusions> -->
+    </dependency>
+
+
+
+
+
+
+
+
+
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-dbcp</groupId>
+      <artifactId>commons-dbcp</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>javax.mail</groupId>
+          <artifactId>mail</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>javax.jms</groupId>
+          <artifactId>jms</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.sun.jdmk</groupId>
+          <artifactId>jmxtools</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.sun.jmx</groupId>
+          <artifactId>jmxri</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+
+<!--     <dependency> -->
+<!--       <groupId>org.hibernate</groupId> -->
+<!--       <artifactId>hibernate-ehcache</artifactId> -->
+<!--       <exclusions> -->
+<!--         <exclusion> -->
+<!--           <groupId>net.sf.ehcache</groupId> -->
+<!--           <artifactId>ehcache-core</artifactId> -->
+<!--         </exclusion> -->
+<!--       </exclusions> -->
+<!--     </dependency> -->
+
+
+
+
+
+
+<!--     <dependency> -->
+<!--       <groupId>net.sf.ehcache</groupId> -->
+<!--       <artifactId>ehcache</artifactId> -->
+<!--     </dependency> -->
+
+
+
+
+    <!-- <dependency> -->
+    <!-- <groupId>net.sf.ehcache</groupId> -->
+    <!-- <artifactId>ehcache-core</artifactId> -->
+    <!-- </dependency> -->
+    <!-- <dependency> -->
+    <!-- <groupId>net.sf.ehcache</groupId> -->
+    <!-- <artifactId>ehcache-web</artifactId> -->
+    <!-- </dependency> -->
+
+
+
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
