@@ -3,11 +3,17 @@
 multi-language, responsive, basic CRUD WebApp
 
 Multi-modules / environment Maven JAVA project
+
 Spring Mobile, Security, MVC, Core,...
+
 Hibernate, MYSQL
+
 Bootstrap
+
 JQuery
+
 JSP
+
 Mockito 
 
 
