@@ -11,7 +11,7 @@ JSP
 Mockito 
 
 
-in [parent-z] folder:
+in [parent-z]:
 
 build 
 $ mvn clean install -Dspring.profiles.active=common,dev -Dlog4j.configuration=log4j.xml  -Pdev
