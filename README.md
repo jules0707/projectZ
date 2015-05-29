@@ -1,20 +1,16 @@
 # projectZ
 
-multi-language, responsive, basic CRUD WebApp
+-Multi-language, responsive, basic CRUD WebApp
 
-Multi-modules / environment Maven JAVA project
+-Multi-modules / environment Maven JAVA project
 
-Spring Mobile, Security, MVC, Core,...
+-Spring Mobile, Security, MVC, Core,...
 
-Hibernate, MYSQL
+-Hibernate, MYSQL
 
-Bootstrap
+-Bootstrap,JQuery,JSP
 
-JQuery
-
-JSP
-
-Mockito 
+-Mockito 
 
 
 in [parent-z]:
